@@ -1,0 +1,127 @@
+*{
+    margin:0;
+    /* outline: 1px dotted blue; */
+}
+body{
+    background-color: rgb(238, 238, 238);
+    font-family: sans-serif;
+}
+#heroimg{
+width: 100%;
+}
+
+li{
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    width: fit-content;
+    margin: 0px 20px;
+    
+}
+
+.flexbox{
+    min-width: 100vw;
+    /* margin: 0 auto 50px; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+.card{
+    margin: 50px 10px 80px 10px;
+    width: 300px;
+    /* border: 2px red solid; */
+    /* text-align: center; */
+    line-height: 140%;
+    display: flex;
+    flex-direction: column;
+    color: #020202;
+
+}
+h1{
+    display: block;
+    margin: 80px auto 20px;
+    text-align: center;
+    font-size: 66px;
+    transition: 1s;
+}
+h1:hover{
+    color: rgb(253, 150, 81);
+}
+
+h2{
+    margin-bottom: 10px;
+    
+}
+.profilbilder{
+    width: 120px;
+    height: 120px;
+    border-radius: 380px;
+    padding: 10px;
+    margin-bottom: 20px;
+    transition: 2s;
+    /* justify-content: center;
+    align-items: center; */
+    align-self: center;
+}
+
+.profilbilder:hover{
+    transform: rotate(-45deg);
+    
+}
+
+
+.footer{
+    padding: 50px;
+    background-image: url("images/Leon.jpg");
+    background-position: top;
+    
+    
+}
+/* Glass card */
+.profilbilde{
+    width: 150px;
+    border-radius: 8px;
+    max-height: 160px;
+    transition: 0.7s;
+}
+.profilbilde:hover {
+    /* filter: blur(5px); */
+    transform: scale(1.05,1.05);
+    filter: drop-shadow(7px 5px 4px #11111255);
+}
+.card2{
+    background: rgba(189, 227, 244, 0.31);
+    border-radius: 16px;
+    border: 1px rgb(142, 142, 142) solid;
+    box-shadow: 10px 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.5px);
+    -webkit-backdrop-filter: blur(1.5px);
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 400px;
+    min-width: 320px;
+    margin: auto auto;
+    border-bottom: rgba(249, 249, 247, 0.077) 4px solid;
+    filter: drop-shadow(10px 5px 4px #11111255);
+}
+.borderline{
+    border: 1px solid rgba(189, 227, 244, 0.56);
+}
+
+.personalia{
+    color: rgb(228, 228, 228);
+    padding: 10px;
+    text-align: left;
+    transition: 0.7s;
+    align-self: center;
+    /* justify-content: center; */
+}   
+.personalia:hover {
+    /* filter: blur(5px); */
+    transform: scale(1.05,1.05);
+    filter: drop-shadow(3px 5px 3px #11111275);
+
+}
